@@ -51,7 +51,22 @@ header {
 .navbar a:hover {
     color: #0ef;
 }
+.menu-icon {
+   /* background-color: tomato; */
+    font-size: 28px;
+    display: none;
+}
 
+@media only screen and (max-width : 768px) {
+    nav al {
+      flex-direction: column;
+    }
+
+    .menu-icon {
+        display: flex;
+    align-items: center;
+    }
+   }
 .home {
     position: relative;
     margin-top: 16px;
