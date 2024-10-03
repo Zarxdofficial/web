@@ -58,8 +58,13 @@ header {
 }
 
 @media only screen and (max-width : 768px) {
-    nav al {
+ nav {  
+   flex-wrap: wrap;
+  }
+     
+    nav ul {
       flex-direction: column;
+      width: 100%;
     }
 
     .menu-icon {
